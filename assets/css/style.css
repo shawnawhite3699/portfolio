@@ -1,0 +1,17 @@
+.hero-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./assets/images/austin.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
