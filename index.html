@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shawna White's Portfolio</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
 </head>
 
 <body>
@@ -14,10 +14,12 @@
     <header class="main-header">
         <h1>Shawna White</h1>
             <nav>
-                <a href="#about-me">About Me</a>
-                <a href="#work">Work</a>
-                <a href="#contact-me">Contact Me</a>
-                <a href="#resume">Resume</a>
+                <ul>
+                    <a href="#about-me">About Me</a>
+                    <a href="#work">Work</a>
+                    <a href="#contact-me">Contact Me</a>
+                    <a href="#resume">Resume</a>
+                </ul>
             </nav>
     </header>
     
@@ -28,46 +30,38 @@
               <h2>Web Development Portfolio</h2>
             </div>
         </section>
-
-        <aside class="aside" >
-            <h2 id="about-me" class="about-me" >About Me</h2>
-            <h2 id="work" class="work">Work</h2>
-            <h2 id="contact-me" class="contact-me">Contact Me</h2>
-        </aside>
                 
-        <section class="cards" >  
-            <article class="card-1">
-                <p>Stuff about me.</p>
+        <section>  
+            <article>
+                <h3 id="about-me">About Me</h3>
+                <p class="about-me">Hi. My name is Shawna. I am just learning to code. It is very confusing. I want to stop trying right now.</p>
             </article>
-            <article class="card-2">
-                <p>card two</p>
+            
+            <article>
+                <h3 id="work">Work</h3>
+                <section class="projects">
+                    <p class="card1">card one</p> <!--not resizing-->
+                </section>
+                <section class="projects">  
+                    <p class="cards">card two</p>
+                    <p class="cards">card three</p>
+                    <p class="cards">card four</p>
+                    <p class="cards">card five</p>
+                </section>
             </article>
-            <article class="card-3-6">
-                <p>card three</p>
-            </article>
-            <article class="card-3-6">
-                <p>card four</p>
-            </article>
-            <article class="card-3-6">
-                <p>card five</p>
-            </article>
-            <article class="card-3-6">
-                <p>card six</p>
-            </article>
-            <article class="card.7">
-                <a href="sw1056@gmail.com">sw1056@gmail.com</a> 
-                <a href="512.665.7667">512.665.7667</a>
-                <a href="Github">Github</a>
-                <a href="Instagram">Instagram</a>
+            
+            <article>
+                <h3 id="contact-me">Contact Me</h3>
+                    <ul class="contact-links">
+                        <a href="sw1056@gmail.com">sw1056@gmail.com</a> 
+                        <a href="512.665.7667">512.665.7667</a>
+                        <a href="Github">Github</a>
+                        <a href="Instagram">Instagram</a>
+                    </ul>
             </article>
         </section>
 
     </main>
-    
-    <!-- Footer 
-    <footer>
-        <h2>Contact Me</h2>
-            
-    </footer> -->
+
 </body>
 </html>

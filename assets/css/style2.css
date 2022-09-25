@@ -1,0 +1,110 @@
+:root {
+    --darkgrey: #4C4E52;
+    --carolinablue: #57A0D2;
+    --background-color: white;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    min-width: 400px;
+}
+
+a {
+    color: var(--carolinablue);
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+h3, p {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: flex-end;
+    color: var(--darkgrey);
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: var(--darkgrey);
+    color: var(--carolinablue);
+    font-size: 26px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.hero-image {
+    background-image: url("/assets/images/beach.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
+    text-align: right;
+    position: absolute;
+    top: 13%;
+    left: 65%;
+    color: var(--darkgrey);
+    font-size: 36px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.card1 {
+    flex: 0 1 70%;
+    border: 5px solid var(--carolinablue);
+    height: 500px;
+    width: 1070px;
+    margin: 0px 50px 25px 200px;
+}
+
+.cards {
+    flex: 0 0 32%;
+    margin: 20px;
+    border: 5px solid var(--carolinablue);
+    height: 200px;
+    margin: 0px 0px 25px 200px;
+}
+
+.contact-links {
+    margin: 100px;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+    .projects {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .project {
+        width: 50%
+    }
+}
