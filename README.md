@@ -22,3 +22,9 @@ THEN the link directs the user to that deployed application when clicked
 WHEN I create a responsive design layout
 THEN the page displays appropriate given the user's screen size
 
+## Screenshot
+
+![alt text](./portfolio-webpage.png)
+
+## Deployed Application
+
