@@ -28,3 +28,4 @@ THEN the page displays appropriate given the user's screen size
 
 ## Deployed Application
 
+https://shawnawhite3699.github.io/portfolio/
