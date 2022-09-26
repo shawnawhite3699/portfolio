@@ -1,24 +1,30 @@
+/* Setting reusable color variables */
 :root {
     --darkgrey: #4C4E52;
     --carolinablue: #57A0D2;
     --background-color: white;
 }
 
+/* Font for page body */
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
 }
 
+/* Style for nav bar links */
 nav ul {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
     min-width: 400px;
+    cursor: pointer;
 }
 
+/* Color for links */
 a {
     color: var(--carolinablue);
 }
 
+/* Style for content in articles */
 article {
     display: flex;
     flex-direction: row;
@@ -26,14 +32,18 @@ article {
     margin-top: 25px;
 }
 
+/* Style for h3 headers */
 h3, p {
     display: flex;
     flex-direction: row;
-    width: 10%;
+    width: 15%;
     justify-content: flex-end;
     color: var(--darkgrey);
+    font-size: 28px;
 }
 
+/* Classes */
+/* Style for h1 header */
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -43,14 +53,7 @@ h3, p {
     font-size: 26px;
 }
 
-.about-me {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 50%;
-    margin-left: 100px;
-}
-
+/* Settings for banner image */
 .hero-image {
     background-image: url("/assets/images/beach.jpg");
     height: 400px;
@@ -59,6 +62,7 @@ h3, p {
     background-position: center;
 }
 
+/* Style for text overlaying banner image */
 .hero-text {
     text-align: right;
     position: absolute;
@@ -68,6 +72,17 @@ h3, p {
     font-size: 36px;
 }
 
+/* Style for about me article */
+.about-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 120px;
+    font-size: 22px;
+}
+
+/* Overarching style for project cards */
 .projects {
     display: flex;
     flex-direction: row;
@@ -76,33 +91,93 @@ h3, p {
     margin-left: 10%;
 }
 
+/* Style specific to card 1 project - larger box */
 .card1 {
     flex: 0 1 70%;
     border: 5px solid var(--carolinablue);
     height: 500px;
     width: 1070px;
     margin: 0px 50px 25px 200px;
+    font-size: 22px;
+    color: var(--background-color);
+    background-image: url("/assets/images/client-code-refactor.png");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
 }
 
-.cards {
+/* Style for 4 remaining project cards */
+.card2 {
     flex: 0 0 32%;
     margin: 20px;
     border: 5px solid var(--carolinablue);
     height: 200px;
     margin: 0px 0px 25px 200px;
+    color: var(--background-color);
+    background-image: url("/assets/images/austin.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
 }
 
+.card3 {
+    flex: 0 0 32%;
+    margin: 20px;
+    border: 5px solid var(--carolinablue);
+    height: 200px;
+    margin: 0px 0px 25px 200px;
+    color: var(--background-color);
+    background-image: url("/assets/images/river-rocks.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.card4 {
+    flex: 0 0 32%;
+    margin: 20px;
+    border: 5px solid var(--carolinablue);
+    height: 200px;
+    margin: 0px 0px 25px 200px;
+    color: var(--background-color);
+    background-image: url("/assets/images/fulton-mansion.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.card5 {
+    flex: 0 0 32%;
+    margin: 20px;
+    border: 5px solid var(--carolinablue);
+    height: 200px;
+    margin: 0px 0px 25px 200px;
+    color: var(--background-color);
+    background-image: url("/assets/images/path-with-flowers.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+/* Style for contact me section links */
 .contact-links {
-    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 65%;
+    margin: 0px 0px 20px 120px;
     justify-content: space-evenly;
+    font-size: 22px;
 }
 
+/* Responsive design for smaller screens */
 @media screen and (max-width: 768px) {
     .projects {
         width: 100%;
     }
 }
 
+/* Responsive design for larger screens */
 @media screen and (max-width: 992px) {
     .project {
         width: 50%
