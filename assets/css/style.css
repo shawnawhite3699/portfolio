@@ -95,14 +95,11 @@ h3, p {
 .card1 {
     flex: 0 1 70%;
     border: 5px solid var(--carolinablue);
-    height: 500px;
-    width: 1070px;
+    height: 635px;
+    width: 880px;
     margin: 0px 50px 25px 200px;
     font-size: 22px;
     color: var(--background-color);
-    background-image: url("../images/client-code-refactor.png");
-    background-size: cover;
-    background-position: center;
     cursor: pointer;
 }
 
@@ -111,12 +108,9 @@ h3, p {
     flex: 0 0 32%;
     margin: 20px;
     border: 5px solid var(--carolinablue);
-    height: 200px;
+    height: 279px;
     margin: 0px 0px 25px 200px;
     color: var(--background-color);
-    background-image: url("../images/the-local-foodie.png");
-    background-size: cover;
-    background-position: center;
     cursor: pointer;
 }
 
@@ -124,7 +118,7 @@ h3, p {
     flex: 0 0 32%;
     margin: 20px;
     border: 5px solid var(--carolinablue);
-    height: 200px;
+    height: 279px;
     margin: 0px 0px 25px 200px;
     color: var(--background-color);
     background-image: url("../images/river-rocks.jpg");
@@ -137,7 +131,7 @@ h3, p {
     flex: 0 0 32%;
     margin: 20px;
     border: 5px solid var(--carolinablue);
-    height: 200px;
+    height: 279px;
     margin: 0px 0px 25px 200px;
     color: var(--background-color);
     background-image: url("../images/fulton-mansion.jpg");
@@ -150,7 +144,7 @@ h3, p {
     flex: 0 0 32%;
     margin: 20px;
     border: 5px solid var(--carolinablue);
-    height: 200px;
+    height: 279px;
     margin: 0px 0px 25px 200px;
     color: var(--background-color);
     background-image: url("../images/path-with-flowers.jpg");

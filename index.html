@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shawna White's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -36,16 +37,23 @@
                 <p class="about-me">Hi. My name is Shawna. I am just learning to code. It is very confusing. I look forward to the day that it all makes sense.</p>
             </article>
             
+            <!--Images aren't fitting boxes correctly. Need to start over on this whole portfolio.-->
             <article>
                 <h3 id="work">Work</h3>
                 <section class="projects">
-                    <p class="card1">Client Code Refactor
-                        <a href="https://shawnawhite3699.github.io/challenge-1/"></a><!--can't figure out how to link-->
-                    </p> <!--not resizing with the other cards; figure out-->
+                    <div class="card1">
+                        <a href="https://shawnawhite3699.github.io/challenge-1/">
+                            <img src="./assets/images/Client Code Refactor.png" alt="Photo of website homepage">
+                            <!--<figcaption>Project 1</figcaption>--><!--Not displaying right-->
+                        </a>    
+                    </div> <!--not resizing with the other cards; figure out-->
                 </section>
                 <section class="projects"> 
-                    <p class="card2">Project 2
-                        <a href="https://github.com/shawnawhite3699/the-local-foodie"></a>
+                    <p class="card2">
+                        <a href="https://shawnawhite3699.github.io/the-local-foodie/">
+                            <img class="object-contain" src="./assets/images/The Local Foodie.png" alt="Photo of website homepage">
+                            <!--<figcaption>Project 2</figcaption>--><!--Not displaying right-->
+                        </a>
                     </p><!--I have no other projects to link-->
                     <p class="card3">Project 3</p><!--I have no other projects to link-->
                     <p class="card4">Project 4</p><!--I have no other projects to link-->
